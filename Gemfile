@@ -1,11 +1,16 @@
 # -*- coding: utf-8 -*-
 source :rubygems
 
-gem 'rake'
-gem 'jeweler'
 gem 'capistrano'
-gem 'rspec'
-gem 'rcov'
-
 gem 'validatable'
 gem 'shout-bot'
+
+group :development do
+  gem 'rake'
+  gem 'jeweler'
+end
+
+group :test do
+  gem 'rspec'
+  gem 'rcov'
+end
