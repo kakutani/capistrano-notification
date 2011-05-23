@@ -44,9 +44,6 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<shout-bot>, [">= 0"])
       s.add_development_dependency(%q<rake>, [">= 0"])
       s.add_development_dependency(%q<jeweler>, [">= 0"])
-      s.add_runtime_dependency(%q<capistrano>, [">= 0"])
-      s.add_runtime_dependency(%q<validatable>, [">= 0"])
-      s.add_runtime_dependency(%q<shout-bot>, [">= 0"])
       s.add_development_dependency(%q<rspec>, [">= 1.2.9"])
     else
       s.add_dependency(%q<capistrano>, [">= 0"])
@@ -54,9 +51,6 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<shout-bot>, [">= 0"])
       s.add_dependency(%q<rake>, [">= 0"])
       s.add_dependency(%q<jeweler>, [">= 0"])
-      s.add_dependency(%q<capistrano>, [">= 0"])
-      s.add_dependency(%q<validatable>, [">= 0"])
-      s.add_dependency(%q<shout-bot>, [">= 0"])
       s.add_dependency(%q<rspec>, [">= 1.2.9"])
     end
   else
@@ -65,10 +59,6 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<shout-bot>, [">= 0"])
     s.add_dependency(%q<rake>, [">= 0"])
     s.add_dependency(%q<jeweler>, [">= 0"])
-    s.add_dependency(%q<capistrano>, [">= 0"])
-    s.add_dependency(%q<validatable>, [">= 0"])
-    s.add_dependency(%q<shout-bot>, [">= 0"])
     s.add_dependency(%q<rspec>, [">= 1.2.9"])
   end
 end
-
